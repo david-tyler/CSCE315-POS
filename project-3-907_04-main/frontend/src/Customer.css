@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+}
+
+/* Customer.css */
+@media screen and (max-width: 768px) {
+    .MuiGrid-container {
+        /* Adjust the container for mobile view */
+        padding: 10px;
+    }
+
+    .MuiGrid-item {
+        /* Adjust the grid items for a stacked layout on small screens */
+    }
+
+    .MuiPaper-root {
+        /* Adjust the paper style for better mobile view */
+        padding: 10px;
+        margin: 10px 0;
+        flex-direction: column; /* Stack elements vertically */
+    }
+
+    .MuiTypography-h4 {
+        /* Adjust typography for smaller screens */
+        font-size: 1.5rem;
+    }
+
+}
